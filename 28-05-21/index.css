@@ -1,0 +1,40 @@
+:root{
+    --primary : #000;
+    --font-color-primary :#fff;
+}
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    max-width : 40rem;
+    margin: auto;
+    padding: 1rem;
+}
+
+
+form{
+    display: flex;
+}
+
+button{
+    color: #fff;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+
+ul{
+    padding-inline-start: 0;
+}
+
+.list{
+    list-style: none;
+}
+
+.btn{
+    cursor: pointer;
+}
