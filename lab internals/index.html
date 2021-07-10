@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Endangered Species List</title>
+    </head>
+    <body>
+        <div>
+            <h1>Endangered Species Of India</h1>
+            <h3>Enter a new endangered species to record it's details:-</h3>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name"><br>
+                <label for="population">Population:</label><br>
+                <input type="number" id="population"><br>
+                <label for="type">Type:</label><br>
+                <input type="text" id="type"><br>
+                <label for="habitat">Habitat:</label><br>
+                <input type="text" id="habitat"><br>
+                <input type="button" value="Submit" id="sub_btn">
+            </form>
+            <p id="message"></p><br><br>
+            <h3>Search for Endangered Species:-</h3>
+            <label for="search">Search by name:</label><br>
+            <input type="text" id="search">
+            <button id="search_btn">Search</button><br><br>
+           
+            <button id="display">Display all</button>
+            <button id="clear">Clear</button>
+            <div id="output"></div><br><br>
+            <h3>Delete an endangered species if it's numbers have exceeded the threshold for being endangered:-</h3>
+            Delete:-<br>
+            <label for="delete_find">Enter ID:</label><br>
+            <input type="text" id="delete_find">
+            <button id="delete_search">Search</button><br><br>
+            <div id="delete"></div>
+        </div>
+        <script src="temp.js"></script>
+    </body>
+</html>
